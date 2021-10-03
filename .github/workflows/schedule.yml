@@ -12,6 +12,6 @@ jobs:
       - name: Update gist
         uses: SOOJEONGKIMM/productive-box@master
         env:
-          GH_TOKEN: ${{  secrets.GH_TOKEN  }}
+          GH_TOKEN: ${{ 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 }}
           GIST_ID: ${{ 31b79f1af43994d914f656daf7daef4f }}
           TIMEZONE: Asia/Seoul
